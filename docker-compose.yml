@@ -2,13 +2,12 @@ version: "2"
 services:
   web:
     build: .
-    volumns:
-      - ./nodejs:/src/app/
+    volumes:
+      - ./nodejs:/usr/src/app/
     ports:
       - "8080:8080"
     depends_on:
       - mongo
   mongo:
+    container_name: mongo
     image: mongo
-    ports:
-      - "27017:27017"

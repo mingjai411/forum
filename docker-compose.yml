@@ -4,6 +4,7 @@ services:
     build: .
     volumes:
       - ./nodejs:/usr/src/app/
+    command: ["npm", "install"]
     ports:
       - "8080:8080"
     depends_on:

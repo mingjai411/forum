@@ -1,0 +1,28 @@
+.container {
+  background-color: #f3f2ed;
+  padding: 0px;
+}
+.row {
+  height: 100px;
+}
+
+.post:hover {
+  background-color: #eeebdd;
+}
+
+.createdAt_value {
+  font-size: small;
+}
+
+.col {
+  border-top: #ffffff 2px solid;
+}
+
+#title_value {
+  font-size: 30px;
+}
+
+.del_btn {
+  margin-right: 10px;
+  width: 15px;
+}
